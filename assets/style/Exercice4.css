@@ -1,0 +1,144 @@
+#img {
+    background-image: url("../img/desert.jpg");
+    height: 350px;
+    background-size: cover;
+}
+
+#centerText {
+    text-align: center;
+    padding-top: 8%;
+}
+
+.colorText {
+    color: brown;
+}
+
+#colorFond {
+    background-color: khaki;
+}
+
+#colorFond a:hover {
+    color: #C48714;
+}
+
+#recherche {
+    margin-left: 90%;
+}
+
+#button {
+    margin-left: 62%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#colorFond {
+    display: table;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0;
+
+}
+
+.displayLink {
+    display: table-cell;
+}
+
+.khaki {
+    background-color: khaki;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#bloc1 {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding-top: 2%;
+
+}
+
+#pictureTravel {
+    width: 435px;
+    height: 240px;
+}
+
+#bloc2 {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding-top: 2%;
+
+}
+
+#pictureAustralie {
+    width: 435px;
+    height: 240px;
+}
+
+#bloc3 {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#pictureBali {
+    width: 435px;
+    height: 240px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: khaki;
+    color: #fff;
+}
+
+@media all and (max-width: 480px) {
+    #bloc1 {
+        float: none;
+    }
+
+    #bloc2 {
+        float: none;
+    }
+
+    #bloc3 {
+        float: none;
+    }
+
+}
+
+#submitButton {
+    text-align: right;
+}
+
+#widthFieldset {
+    width: 30%;
+    margin-left: 33%;
+}
+
+.positionInput {
+    text-align: right;
+}
+
+#global {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#inputDiv {
+margin-top: 20px;
+    width: 30%;
+    line-height: 32px;
+}
+
+#widthDiv {
+    width: 42%;
+    line-height: 33px;
+}
